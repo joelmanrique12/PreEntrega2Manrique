@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+.logo img {
+    width: 50px;
+    height: 70px;
+    
+}
+.overlay-text {
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    }
+.text-box {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    }
+.position-relative {
+    position: relative;
+    }
+.plantel {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    }
+.plantel h2 {
+    font-size: 2rem;
+}
+.plantel p {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .plantel h2{
+    font-size: 2rem;
+}
+    .plantel p {
+    font-size: 1rem;
+}
+    }
+@media (max-width: 576px) {
+    .plantel h2{
+    font-size: 2rem;
+}
+    .plantel p {
+    font-size: 1rem;
+}
+    }
+
+
+.seccion-form {
+    position: relative;
+
+}
+
+.seccion-form img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.seccion-form form {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+textarea {
+    height: 150px;
+}
+.seccion-form p {
+    font-size: xxx-large;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.redesfooter {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    margin: 0 auto;
+}
+.redesfooter img {
+    width: 60px;
+    height: 60px;
+    transform: scale(0.5);
+}
+.historiarg {
+    background-image: url(../img/historia\ argentina\ .jpg);
+    background-size: cover;
+    max-width: 700px;
+    width: 100%;
+    padding: 1px;
+    margin: 0 auto;
+    opacity: 1;
+
+}
+.tittle{
+    text-align: center;
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: navy;
+}
+.paragraph{
+        font-size: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: navy;
+        opacity: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+.fotovieja {
+        position: relative;
+    
+    }
+
+.fotovieja img {
+        display: block;
+        width: 100%;
+        height: auto;
+        opacity: 0.2;
+    }
+
+@media (max-width: 768px){
+.paragraph {
+font-size: 1rem;
+    }
+    }
+.convocados ol{
+list-style-type: none;
+}
+.contacto h1 {
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+
+}
+
+nav,
+.offcanvas {
+background-color: #1e293b;
+}
+.navbar-toggler {
+border: none;
+}
+.navbar-toggler:focus {
+outline: none;
+box-shadow: none;
+}
+
+@media (max-width: 768px) {
+.navbar-nav > li:hover {
+    background-color: #0dcaf0;
+}
+}
+@media (max-width: 320px) {
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-around;
+    }   
+}
+.carousel-item img {
+    height: 300px;
+}
+@media (min-width: 768px) {
+    #carouselExample {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .carousel-item img {
+        height: 350px;
+    }
+}
